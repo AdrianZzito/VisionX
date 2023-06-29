@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF075ED62A4CA87C00200A9E /* RocketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF075ED52A4CA87C00200A9E /* RocketDetailView.swift */; };
+		DF075EDB2A4CB13500200A9E /* SpaceX in Frameworks */ = {isa = PBXBuildFile; productRef = DF075EDA2A4CB13500200A9E /* SpaceX */; };
+		DF075EDD2A4CB62900200A9E /* ImageDetailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF075EDC2A4CB62900200A9E /* ImageDetailed.swift */; };
+		DF075EDF2A4CB72B00200A9E /* ImageOrnament.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF075EDE2A4CB72B00200A9E /* ImageOrnament.swift */; };
+		DF13268A2A4C78AA00CBC1B0 /* LaunchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1326892A4C78AA00CBC1B0 /* LaunchDetailView.swift */; };
+		DF13268C2A4C804600CBC1B0 /* YoutubeEmbed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13268B2A4C804600CBC1B0 /* YoutubeEmbed.swift */; };
+		DF13268F2A4C86FD00CBC1B0 /* RoadsterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13268E2A4C86FD00CBC1B0 /* RoadsterView.swift */; };
+		DF1326912A4C874F00CBC1B0 /* RoadsterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1326902A4C874F00CBC1B0 /* RoadsterModel.swift */; };
+		DF1326942A4C88AC00CBC1B0 /* Roadster in Frameworks */ = {isa = PBXBuildFile; productRef = DF1326932A4C88AC00CBC1B0 /* Roadster */; };
+		DF1326962A4C8CBE00CBC1B0 /* RoadsterImmersive.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1326952A4C8CBE00CBC1B0 /* RoadsterImmersive.swift */; };
+		DF1326992A4C8EC800CBC1B0 /* Earth in Frameworks */ = {isa = PBXBuildFile; productRef = DF1326982A4C8EC800CBC1B0 /* Earth */; };
+		DF1A73C42A4CBF1700C84FA3 /* StarlinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A73C32A4CBF1700C84FA3 /* StarlinkView.swift */; };
+		DF1A73C62A4CC03300C84FA3 /* StarlinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A73C52A4CC03300C84FA3 /* StarlinkModel.swift */; };
+		DF1FE1AF2A4CA3AC00B248D2 /* RocketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1FE1AE2A4CA3AC00B248D2 /* RocketsView.swift */; };
+		DF4655672A4C590600432BE9 /* VisionXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4655662A4C590600432BE9 /* VisionXApp.swift */; };
+		DF4655692A4C590600432BE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4655682A4C590600432BE9 /* ContentView.swift */; };
+		DF46556D2A4C590700432BE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF46556C2A4C590700432BE9 /* Assets.xcassets */; };
+		DF4655702A4C590700432BE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF46556F2A4C590700432BE9 /* Preview Assets.xcassets */; };
+		DF4655782A4C59AF00432BE9 /* LaunchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4655772A4C59AF00432BE9 /* LaunchesView.swift */; };
+		DF46557B2A4C5A0B00432BE9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46557A2A4C5A0B00432BE9 /* ViewModel.swift */; };
+		DF46557D2A4C5A3200432BE9 /* LaunchesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46557C2A4C5A3200432BE9 /* LaunchesModel.swift */; };
+		DF46557F2A4C646600432BE9 /* LaunchRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46557E2A4C646500432BE9 /* LaunchRowView.swift */; };
+		DF4655812A4C65DF00432BE9 /* RocketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4655802A4C65DF00432BE9 /* RocketModel.swift */; };
+		DF7235742A4CC5D10036A9AF /* StarlinkImmersive.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7235732A4CC5D10036A9AF /* StarlinkImmersive.swift */; };
+		DF7235762A4CC69B0036A9AF /* StarlinkAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7235752A4CC69B0036A9AF /* StarlinkAttachment.swift */; };
+		DFAC4F732A4D933D00BDAD1B /* PadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC4F722A4D933D00BDAD1B /* PadsView.swift */; };
+		DFAC4F752A4D942700BDAD1B /* LaunchpadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC4F742A4D942700BDAD1B /* LaunchpadModel.swift */; };
+		DFAC4F772A4D96BF00BDAD1B /* LaunchpadDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC4F762A4D96BF00BDAD1B /* LaunchpadDetailView.swift */; };
+		DFAC4F792A4DA8C900BDAD1B /* LandpadDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC4F782A4DA8C900BDAD1B /* LandpadDetailView.swift */; };
+		DFAC4F7B2A4DAC5B00BDAD1B /* LandpadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC4F7A2A4DAC5B00BDAD1B /* LandpadModel.swift */; };
+		DFE9FC152A4C9609008B0150 /* RoadsterAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FC142A4C9609008B0150 /* RoadsterAttachment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF075ED52A4CA87C00200A9E /* RocketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDetailView.swift; sourceTree = "<group>"; };
+		DF075EDC2A4CB62900200A9E /* ImageDetailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailed.swift; sourceTree = "<group>"; };
+		DF075EDE2A4CB72B00200A9E /* ImageOrnament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOrnament.swift; sourceTree = "<group>"; };
+		DF1326892A4C78AA00CBC1B0 /* LaunchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDetailView.swift; sourceTree = "<group>"; };
+		DF13268B2A4C804600CBC1B0 /* YoutubeEmbed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeEmbed.swift; sourceTree = "<group>"; };
+		DF13268E2A4C86FD00CBC1B0 /* RoadsterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsterView.swift; sourceTree = "<group>"; };
+		DF1326902A4C874F00CBC1B0 /* RoadsterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsterModel.swift; sourceTree = "<group>"; };
+		DF1326952A4C8CBE00CBC1B0 /* RoadsterImmersive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsterImmersive.swift; sourceTree = "<group>"; };
+		DF1A73C32A4CBF1700C84FA3 /* StarlinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlinkView.swift; sourceTree = "<group>"; };
+		DF1A73C52A4CC03300C84FA3 /* StarlinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlinkModel.swift; sourceTree = "<group>"; };
+		DF1FE1AE2A4CA3AC00B248D2 /* RocketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsView.swift; sourceTree = "<group>"; };
+		DF46555F2A4C590600432BE9 /* VisionX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4655662A4C590600432BE9 /* VisionXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionXApp.swift; sourceTree = "<group>"; };
+		DF4655682A4C590600432BE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF46556C2A4C590700432BE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF46556F2A4C590700432BE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF4655772A4C59AF00432BE9 /* LaunchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesView.swift; sourceTree = "<group>"; };
+		DF46557A2A4C5A0B00432BE9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DF46557C2A4C5A3200432BE9 /* LaunchesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesModel.swift; sourceTree = "<group>"; };
+		DF46557E2A4C646500432BE9 /* LaunchRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRowView.swift; sourceTree = "<group>"; };
+		DF4655802A4C65DF00432BE9 /* RocketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketModel.swift; sourceTree = "<group>"; };
+		DF7235732A4CC5D10036A9AF /* StarlinkImmersive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlinkImmersive.swift; sourceTree = "<group>"; };
+		DF7235752A4CC69B0036A9AF /* StarlinkAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlinkAttachment.swift; sourceTree = "<group>"; };
+		DFAC4F722A4D933D00BDAD1B /* PadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadsView.swift; sourceTree = "<group>"; };
+		DFAC4F742A4D942700BDAD1B /* LaunchpadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchpadModel.swift; sourceTree = "<group>"; };
+		DFAC4F762A4D96BF00BDAD1B /* LaunchpadDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchpadDetailView.swift; sourceTree = "<group>"; };
+		DFAC4F782A4DA8C900BDAD1B /* LandpadDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandpadDetailView.swift; sourceTree = "<group>"; };
+		DFAC4F7A2A4DAC5B00BDAD1B /* LandpadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandpadModel.swift; sourceTree = "<group>"; };
+		DFE9FC142A4C9609008B0150 /* RoadsterAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsterAttachment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF46555C2A4C590600432BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF075EDB2A4CB13500200A9E /* SpaceX in Frameworks */,
+				DF1326942A4C88AC00CBC1B0 /* Roadster in Frameworks */,
+				DF1326992A4C8EC800CBC1B0 /* Earth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF13268D2A4C86EE00CBC1B0 /* Roadster */ = {
+			isa = PBXGroup;
+			children = (
+				DF13268E2A4C86FD00CBC1B0 /* RoadsterView.swift */,
+				DF1326952A4C8CBE00CBC1B0 /* RoadsterImmersive.swift */,
+				DFE9FC142A4C9609008B0150 /* RoadsterAttachment.swift */,
+			);
+			path = Roadster;
+			sourceTree = "<group>";
+		};
+		DF1A73C22A4CBF0800C84FA3 /* Starlink */ = {
+			isa = PBXGroup;
+			children = (
+				DF1A73C32A4CBF1700C84FA3 /* StarlinkView.swift */,
+				DF7235732A4CC5D10036A9AF /* StarlinkImmersive.swift */,
+				DF7235752A4CC69B0036A9AF /* StarlinkAttachment.swift */,
+			);
+			path = Starlink;
+			sourceTree = "<group>";
+		};
+		DF1FE1B02A4CA3AF00B248D2 /* Rockets */ = {
+			isa = PBXGroup;
+			children = (
+				DF1FE1AE2A4CA3AC00B248D2 /* RocketsView.swift */,
+				DF075ED52A4CA87C00200A9E /* RocketDetailView.swift */,
+				DF075EDC2A4CB62900200A9E /* ImageDetailed.swift */,
+				DF075EDE2A4CB72B00200A9E /* ImageOrnament.swift */,
+			);
+			path = Rockets;
+			sourceTree = "<group>";
+		};
+		DF4655562A4C590600432BE9 = {
+			isa = PBXGroup;
+			children = (
+				DF4655612A4C590600432BE9 /* VisionX */,
+				DF4655602A4C590600432BE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF4655602A4C590600432BE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF46555F2A4C590600432BE9 /* VisionX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF4655612A4C590600432BE9 /* VisionX */ = {
+			isa = PBXGroup;
+			children = (
+				DF4655662A4C590600432BE9 /* VisionXApp.swift */,
+				DF4655682A4C590600432BE9 /* ContentView.swift */,
+				DF4655762A4C598A00432BE9 /* Launches */,
+				DF1FE1B02A4CA3AF00B248D2 /* Rockets */,
+				DFAC4F712A4D932500BDAD1B /* Pads */,
+				DF1A73C22A4CBF0800C84FA3 /* Starlink */,
+				DF13268D2A4C86EE00CBC1B0 /* Roadster */,
+				DF4655792A4C5A0000432BE9 /* Model */,
+				DF46556C2A4C590700432BE9 /* Assets.xcassets */,
+				DF46556E2A4C590700432BE9 /* Preview Content */,
+			);
+			path = VisionX;
+			sourceTree = "<group>";
+		};
+		DF46556E2A4C590700432BE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF46556F2A4C590700432BE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF4655762A4C598A00432BE9 /* Launches */ = {
+			isa = PBXGroup;
+			children = (
+				DF4655772A4C59AF00432BE9 /* LaunchesView.swift */,
+				DF46557E2A4C646500432BE9 /* LaunchRowView.swift */,
+				DF1326892A4C78AA00CBC1B0 /* LaunchDetailView.swift */,
+				DF13268B2A4C804600CBC1B0 /* YoutubeEmbed.swift */,
+			);
+			path = Launches;
+			sourceTree = "<group>";
+		};
+		DF4655792A4C5A0000432BE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF46557A2A4C5A0B00432BE9 /* ViewModel.swift */,
+				DF46557C2A4C5A3200432BE9 /* LaunchesModel.swift */,
+				DF4655802A4C65DF00432BE9 /* RocketModel.swift */,
+				DF1326902A4C874F00CBC1B0 /* RoadsterModel.swift */,
+				DF1A73C52A4CC03300C84FA3 /* StarlinkModel.swift */,
+				DFAC4F742A4D942700BDAD1B /* LaunchpadModel.swift */,
+				DFAC4F7A2A4DAC5B00BDAD1B /* LandpadModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFAC4F712A4D932500BDAD1B /* Pads */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC4F722A4D933D00BDAD1B /* PadsView.swift */,
+				DFAC4F762A4D96BF00BDAD1B /* LaunchpadDetailView.swift */,
+				DFAC4F782A4DA8C900BDAD1B /* LandpadDetailView.swift */,
+			);
+			path = Pads;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF46555E2A4C590600432BE9 /* VisionX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4655732A4C590700432BE9 /* Build configuration list for PBXNativeTarget "VisionX" */;
+			buildPhases = (
+				DF46555B2A4C590600432BE9 /* Sources */,
+				DF46555C2A4C590600432BE9 /* Frameworks */,
+				DF46555D2A4C590600432BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionX;
+			packageProductDependencies = (
+				DF1326932A4C88AC00CBC1B0 /* Roadster */,
+				DF1326982A4C8EC800CBC1B0 /* Earth */,
+				DF075EDA2A4CB13500200A9E /* SpaceX */,
+			);
+			productName = VisionX;
+			productReference = DF46555F2A4C590600432BE9 /* VisionX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF4655572A4C590600432BE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DF46555E2A4C590600432BE9 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = DF46555A2A4C590600432BE9 /* Build configuration list for PBXProject "VisionX" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF4655562A4C590600432BE9;
+			packageReferences = (
+				DF1326922A4C88AC00CBC1B0 /* XCLocalSwiftPackageReference "../../Packages/Roadster" */,
+				DF1326972A4C8EC800CBC1B0 /* XCLocalSwiftPackageReference "../../Packages/Earth" */,
+				DF075ED92A4CB13500200A9E /* XCLocalSwiftPackageReference "../../Packages/SpaceX" */,
+			);
+			productRefGroup = DF4655602A4C590600432BE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF46555E2A4C590600432BE9 /* VisionX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF46555D2A4C590600432BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4655702A4C590700432BE9 /* Preview Assets.xcassets in Resources */,
+				DF46556D2A4C590700432BE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF46555B2A4C590600432BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1A73C62A4CC03300C84FA3 /* StarlinkModel.swift in Sources */,
+				DF4655812A4C65DF00432BE9 /* RocketModel.swift in Sources */,
+				DFE9FC152A4C9609008B0150 /* RoadsterAttachment.swift in Sources */,
+				DF4655782A4C59AF00432BE9 /* LaunchesView.swift in Sources */,
+				DFAC4F7B2A4DAC5B00BDAD1B /* LandpadModel.swift in Sources */,
+				DF13268A2A4C78AA00CBC1B0 /* LaunchDetailView.swift in Sources */,
+				DF1FE1AF2A4CA3AC00B248D2 /* RocketsView.swift in Sources */,
+				DF4655692A4C590600432BE9 /* ContentView.swift in Sources */,
+				DFAC4F732A4D933D00BDAD1B /* PadsView.swift in Sources */,
+				DF1A73C42A4CBF1700C84FA3 /* StarlinkView.swift in Sources */,
+				DF13268F2A4C86FD00CBC1B0 /* RoadsterView.swift in Sources */,
+				DFAC4F772A4D96BF00BDAD1B /* LaunchpadDetailView.swift in Sources */,
+				DF075EDF2A4CB72B00200A9E /* ImageOrnament.swift in Sources */,
+				DF075ED62A4CA87C00200A9E /* RocketDetailView.swift in Sources */,
+				DF46557D2A4C5A3200432BE9 /* LaunchesModel.swift in Sources */,
+				DFAC4F752A4D942700BDAD1B /* LaunchpadModel.swift in Sources */,
+				DF46557B2A4C5A0B00432BE9 /* ViewModel.swift in Sources */,
+				DF1326962A4C8CBE00CBC1B0 /* RoadsterImmersive.swift in Sources */,
+				DF1326912A4C874F00CBC1B0 /* RoadsterModel.swift in Sources */,
+				DF13268C2A4C804600CBC1B0 /* YoutubeEmbed.swift in Sources */,
+				DF075EDD2A4CB62900200A9E /* ImageDetailed.swift in Sources */,
+				DF46557F2A4C646600432BE9 /* LaunchRowView.swift in Sources */,
+				DF7235762A4CC69B0036A9AF /* StarlinkAttachment.swift in Sources */,
+				DFAC4F792A4DA8C900BDAD1B /* LandpadDetailView.swift in Sources */,
+				DF4655672A4C590600432BE9 /* VisionXApp.swift in Sources */,
+				DF7235742A4CC5D10036A9AF /* StarlinkImmersive.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF4655712A4C590700432BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		DF4655722A4C590700432BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		DF4655742A4C590700432BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionX/Preview Content\"";
+				DEVELOPMENT_TEAM = XZ3K8YX7LC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.castilla.VisionX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		DF4655752A4C590700432BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionX/Preview Content\"";
+				DEVELOPMENT_TEAM = XZ3K8YX7LC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.castilla.VisionX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF46555A2A4C590600432BE9 /* Build configuration list for PBXProject "VisionX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4655712A4C590700432BE9 /* Debug */,
+				DF4655722A4C590700432BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4655732A4C590700432BE9 /* Build configuration list for PBXNativeTarget "VisionX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4655742A4C590700432BE9 /* Debug */,
+				DF4655752A4C590700432BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		DF075ED92A4CB13500200A9E /* XCLocalSwiftPackageReference "../../Packages/SpaceX" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Packages/SpaceX;
+		};
+		DF1326922A4C88AC00CBC1B0 /* XCLocalSwiftPackageReference "../../Packages/Roadster" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Packages/Roadster;
+		};
+		DF1326972A4C8EC800CBC1B0 /* XCLocalSwiftPackageReference "../../Packages/Earth" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Packages/Earth;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF075EDA2A4CB13500200A9E /* SpaceX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpaceX;
+		};
+		DF1326932A4C88AC00CBC1B0 /* Roadster */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Roadster;
+		};
+		DF1326982A4C8EC800CBC1B0 /* Earth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Earth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DF4655572A4C590600432BE9 /* Project object */;
+}
