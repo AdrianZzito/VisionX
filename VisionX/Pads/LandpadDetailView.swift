@@ -74,14 +74,10 @@ struct LandpadDetailView: View {
             
             if landpad.launches.isEmpty == false {
                 Section("Launches") {
-                    ScrollView() {
-                        
+                    List {
                         ForEach(viewModel.launchesOnLaunchpad, id: \.self) { launches in
-                            NavigationLink(value: launches) {
-                                LaunchRowView(launch: launches)
-                            }
+                            LaunchRowView(launch: launches)
                         }
-                        
                     }
                 }
             }
